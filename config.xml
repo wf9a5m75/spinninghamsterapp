@@ -44,16 +44,16 @@
 
 	<gap:plugin spec="https://github.com/danwilson/google-analytics-plugin.git" source="git" />
 	
-	<gap:plugin name="cordova-plugin-googlemaps" source="npm" spec="2.2.8">
+	<gap:plugin name="cordova-plugin-googlemaps" source="npm" >
 	    <variable name="API_KEY_FOR_ANDROID" value="" />
 	    <variable name="API_KEY_FOR_IOS" value="" />
-	    <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Reason" />
-	    <variable name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Reason" />
+	    <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="AIzaSyBzTWTKaMEeABaeBSa3_E6ZMxseK4xXl4k" />
+	    <variable name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="AIzaSyBzTWTKaMEeABaeBSa3_E6ZMxseK4xXl4k" />
 	</gap:plugin>
 	 
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />	 
     
-    <gap:plugin name="onesignal-cordova-plugin" source="npm"  spec="2.4.0"/>
+    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
     
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
       <param name="URL_SCHEME" value="ubonhero" />
